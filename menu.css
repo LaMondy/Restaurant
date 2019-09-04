@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Neucha&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 90px;
+    color: cornflowerblue;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+a {
+    font-size: 20px;
+    font-family: 'Neucha', cursive;
+    color: whitesmoke;
+    text-decoration:none;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: cornflowerblue;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+nav {
+    text-align: center;
+    background-image: url(p-1-90365173-ikea-is-now-the-worldand8217s-6th-largest-food-chain-and-itand8217s-starting-to-deliver.jpg);
+    padding-bottom: 5em;
+}
+
+
+.footer {
+    font-size: 15px;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+article {
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-color: black;
+    margin: 1rem;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 10rem;
+}
+
+main>section {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.productlist > section > h1 {
+    grid-column: 1/-1;
+}
+
+button {
+    font-family: 'Neucha', cursive;
+    font-size: 30px;
+    text-align-last: center;
+     border-radius: 12px;
+    padding: 5px;
+    font-size: .8rem;
+    color: whitesmoke;
+    width: 10rem;
+     background-color: cornflowerblue;
+}
+h3 {
+    font-family: 'Neucha', cursive;
+    font-size: 50px;
+    text-align-last: center;
+    padding: 1px;
+    border-radius: 1;
+    font-size: .8rem;
+    color: black;
+    width: 10rem;
+}
+h4 {
+    font-family: 'Neucha', cursive;
+    font-size: 30px;
+    text-align-last: center;
+    padding: 1px;
+    border-radius: 1;
+    font-size: .8rem;
+    color: black;
+    width: 10rem;
+
+}
+
+.containsAlcohol {
+    text-align-last: center;
+    padding: 1px;
+    border-radius: 1em;
+    font-size: .8rem;
+    color: black;
+    width: 10rem;
+
+}
+
+.discount {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.soldOut::after {
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    content: "Sold Out";
+    background-color: cornflowerblue;
+}
+
+section.details{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+section.hidden {
+    display: none;
+}

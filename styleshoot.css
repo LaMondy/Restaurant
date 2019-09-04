@@ -1,0 +1,81 @@
+//*body {
+    /*background-image: url("/assets/backGround.jpg");
+    background-color: white;
+    font-family: verdana;
+    font-size: 1rem;
+}
+
+article {
+    background-color: lightgray;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+    margin: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.button{
+    padding: 1rem;
+    border-radius: .8rem;
+    font-size: .8rem;
+    background-color: white;
+    color: black;
+    width: 6rem;
+
+}
+nav {
+    /*background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.navItems {
+    height: 10vh;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10rem;
+    box-shadow: 5px 5px 5px lightgray;
+
+}
+
+.navItems:hover {
+    background-color: lightgray;
+    border-radius: 4.1rem;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.discount{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.soldOut::after{
+    position:absolute;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    content: "Sold Out";
+    background-color: aqua;
+}
+*/
+

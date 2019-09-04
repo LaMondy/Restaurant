@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RESTAURANT</title>
+    <link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>RESTAURANT</h1>
+            <a href="#starter">STARTERS</a>
+            <a href="#main">MAINS</a>
+            <a href="#sideorders">SIDE-DISHES</a>
+            <a href="#dessert">DESSERT</a>
+            <a href="#drinks">DRINKS</a>
+        </nav>
+    </header>
+
+    <main class="productlist">
+        <template class="product">
+            <article class="product soldOut">
+                <img src="" alt="whatevs" class="shadow">
+                <section class="productbody">
+                    <h3 class="data_name">Cabanossi with balbaba</h3>
+                    <h4 class="data_price">js not loading</h4>
+                    <h4 class="data_discount">34,-</h4>
+                    <h4 class="data_soldout"></h4>
+                    <div class="containsAlcohol">ALCOHOL</div>
+                    <button class="details btn">DETAILS</button>
+                </section>
+<!--                invisible until the user clicks details -->
+                <section class="details hidden">
+                    <h4 class="data_description">blah blah blah</h4>
+                    <h4 class="data_vegetarian"> YES</h4>
+                </section>
+<!--                invisible check css class-->
+            </article>
+
+        </template>
+<!--
+        <template class="details">
+
+        </template>
+-->
+    </main>
+    <footer>
+
+        <div class="footer">
+            <p>OPENING HOURS</p>
+            <p>Man - closed</p>
+            <p>Tue - Thu 16.00 - 00.00</p>
+            <p>Fri 16.00 - 01.00</p>
+            <p>Sat 10.00 - 01.00</p>
+            <p>Sun 10.00 - 23.00</p>
+        </div>
+
+    </footer>
+    <script src="menu.js"></script>
+</body>
+
+</html>
